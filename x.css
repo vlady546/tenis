@@ -1,0 +1,67 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+    Background-color: #f7f7f7;
+   }
+   
+   Header {
+    Background-color: #333;
+    Color: #fff;
+    Padding: 20px;
+    Text-align: center;
+   }
+   
+   Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+    Justify-content: space-between;
+   }
+   
+   .contenedor {
+    Max-width: 800px;
+    Margin: 40px auto;
+    Text-align: center;
+   }
+   
+   .galeria {
+    Display: flex;
+    Flex-wrap: wrap;
+    Justify-content: center;
+    Gap: 20px;
+   }
+   
+   .galeria img {
+    Width: 200px;
+    Height: 150px;
+    Border-radius: 10px;
+    Box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   Button {
+    Background-color: #333;
+    Color: #fff;
+    Padding: 10px 20px;
+    Border: none;
+    Border-radius: 10px;
+    Cursor: pointer;
+   }
+   
+   Button:hover {
+    Background-color: #555;
+   }
+   
+   Footer {
+    Background-color: #333;
+    Color: #fff;
+    Padding: 10px;
+    Text-align: center;
+   }
+   .animada{
+    transform: scale(1) ;
+    }
+    .animada:hover{
+    transform: scale(1.2);
+    }
